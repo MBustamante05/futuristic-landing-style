@@ -1,0 +1,130 @@
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+  25% {
+    background-position: left center;
+  }
+  50% {
+    background-position: center center;
+  }
+  75% {
+    background-position: right center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+.gradientReveal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: bolder;
+  line-height: 1;
+  /* filter: drop-shadow(-15px 12px 0.1rem #2a3038ea); */
+  background: linear-gradient(
+    120deg,
+    #d8713d 5%,
+    #bf43f0 15%,
+    #872dee 20%,
+    #ffffff 40%,
+    #EB7539 50%,
+    #ba80fc 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  /* animation: shine 4s linear infinite; */
+}
+
+.personImage {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+}
+
+.typingSubtitle {
+  position: absolute;
+  bottom: 50px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 22ch;
+  animation: typing 3s steps(22) 1s forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 22ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* 
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}  */
+
+/* ----------- OPCIÓN B ----------- */
+/* .gradientReveal {
+  font-size: 7rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(
+    120deg,
+    #20252b 0%,
+    #d6d6d6 30%,
+    white 50%,
+    #d6d6d6 70%,
+    #20252b 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+} */

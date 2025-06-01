@@ -2,20 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  font-family: monospace;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Dune Rise";
+  src: url("/fonts/Dune_Rise.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* @font-face {
+  font-family: "Astral Delight Black";
+  src: url("/fonts/Astral Delight Black Upright.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Astral Delight";
+  src: url("/fonts/Astral Delight Upright.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Ethnocentric";
+  src: url("/fonts/Ethnocentric Rg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Distant Galaxy Outline";
+  src: url("/fonts/SF Distant Galaxy Outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "SF Distant Galaxy";
+  src: url("/fonts/SF Distant Galaxy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Groove Soul";
+  src: url("/fonts/Groove Soul.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("/fonts/Akira Expanded Demo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }

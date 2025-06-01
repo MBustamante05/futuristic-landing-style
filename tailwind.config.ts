@@ -12,6 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        dune: ["Dune Rise", "sans-serif"],
+        // astralBlack: ["Astral Delight Black", "sans-serif"],
+        // astral: ["Astral Delight", "sans-serif"],
+        ethnocentric: ["Ethnocentric", "sans-serif"],
+        SFDistantOutline: ["SF Distant Galaxy Outline", "sans-serif"],
+        // SFDistant: ["SF Distant Galaxy", "sans-serif"],
+        GrooveSoul: ["Groove Soul", "sans-serif"],
+        akira: ["Akira Expanded", "sans-serif"],
+      }
     },
   },
   plugins: [],

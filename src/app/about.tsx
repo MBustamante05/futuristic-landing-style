@@ -45,7 +45,7 @@ function About() {
   ];
   return (
     <div className="relative bg-orange-600/80 text-white min-h-screen flex flex-col overflow-hidden">
-      <div className="w-full mx-auto px-32 pt-32 pb-10 grid grid-cols-5 gap-5">
+      <div className="w-full mx-auto max-w-[1500px] pt-32 pb-10 grid grid-cols-5 gap-5">
         <div
           className={`col-span-3 flex flex-col font-akira text-[6rem] font-bold ${styles.wordsContainer}`}
         >

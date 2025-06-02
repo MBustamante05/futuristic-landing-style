@@ -9,7 +9,7 @@ function Home() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="relative bg-[#060303] text-white min-h-screen flex flex-col overflow-hidden"
+      className="relative bg-[var(--moon-night)] text-white min-h-screen flex flex-col overflow-hidden"
     >
       {/* <Image src={"/bg-blur1.svg"} alt="background blur" width={850} height={850} className="absolute -top-40 left-0 z-0 opacity-70"/>
       <Image src={"/bg-blur2.svg"} alt="background blur" width={850} height={850} className="absolute -bottom-40 right-0 z-0 opacity-70"/> */}
@@ -31,8 +31,8 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:text-orange-200">
-                Projects
+              <a href="#cards" className="hover:text-orange-200">
+                Cards
               </a>
             </li>
             <li>

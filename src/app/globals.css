@@ -53,3 +53,9 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+
+:root {
+ --moon-night: #060303;
+ --sweet-orange: #EE783C;
+ --light-night: #cccccc6e;
+}

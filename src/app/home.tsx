@@ -14,29 +14,29 @@ function Home() {
       {/* <Image src={"/bg-blur1.svg"} alt="background blur" width={850} height={850} className="absolute -top-40 left-0 z-0 opacity-70"/>
       <Image src={"/bg-blur2.svg"} alt="background blur" width={850} height={850} className="absolute -bottom-40 right-0 z-0 opacity-70"/> */}
 
-      <div className="w-full max-w-[1300px] h-screen mx-auto px-4 py-8 z-10">
+      <div className="w-full max-w-[1300px] mx-auto px-4 py-8 z-10">
         <nav className="fixed left-1/2 top-6 transform -translate-x-1/2 flex justify-between w-full max-w-[784px] py-3 px-7 bg-white/10 rounded-full shadow-lg backdrop-blur-md z-50 items-center">
           <h3 className="text-lg font-bold font-dune cursor-pointer">
             B<span className="text-orange-300">Dev</span>.{" "}
           </h3>
           <ul className="flex space-x-4 text-[15px] tracking-wide ">
             <li>
-              <a href="#home" className="hover:text-gray-400">
+              <a href="#home" className="hover:text-orange-200">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-gray-400">
+              <a href="#about" className="hover:text-orange-200">
                 About
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:text-gray-400">
+              <a href="#projects" className="hover:text-orange-200">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-gray-400">
+              <a href="#contact" className="hover:text-orange-200">
                 Contact
               </a>
             </li>

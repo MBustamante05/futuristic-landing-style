@@ -52,7 +52,7 @@
   color: transparent;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  /* animation: shine 4s linear infinite; */
+  animation: shine 4s linear infinite;
 }
 
 .personImage {

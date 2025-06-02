@@ -1,0 +1,49 @@
+.wordsContainer {
+  /* Estilos para el contenedor si los necesitas */
+}
+
+.flipBox {
+  perspective: 1000px;
+  display: inline-block;
+  margin-bottom: -2rem;
+  cursor: pointer;
+}
+
+.flipInner {
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  position: relative;
+  display: inline-block;
+}
+
+.flipFront {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  color: white;
+  z-index: 2;
+}
+
+.flipBack {
+  color: black;
+  transform: rotateX(120deg);
+}
+
+.flipBox:hover .flipInner {
+  transform: rotateX(180deg);
+}
+
+.wordActive .flipInner {
+  transform: rotateX(180deg);
+}
+
+.wordActive {
+  perspective: 1000px;
+  display: inline-block;
+  margin-bottom: -2rem;
+  cursor: pointer;
+}

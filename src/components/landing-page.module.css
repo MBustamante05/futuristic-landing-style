@@ -52,7 +52,7 @@
   color: transparent;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  animation: shine 4s linear infinite;
+  /* animation: shine 4s linear infinite; */
 }
 
 .personImage {
@@ -70,7 +70,7 @@
   overflow: hidden;
   border-right: 2px solid white;
   width: 22ch;
-  animation: typing 3s steps(22) 1s forwards, blink 0.7s infinite;
+  /* animation: typing 3s steps(22) 1s forwards, blink 0.7s infinite; */
 }
 
 @keyframes typing {

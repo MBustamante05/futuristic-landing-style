@@ -5,6 +5,9 @@
 body{
   font-family: monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Dune Rise";
   src: url("/fonts/Dune_Rise.ttf") format("truetype");

@@ -1,7 +1,8 @@
 "use client";
-import About from "./about";
-import Cards from "./cards";
-import Home from "./home";
+// import Contact from "@/components/contact";
+import About from "../components/about";
+import Cards from "../components/cards";
+import Home from "../components/home";
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,9 @@ export default function LandingPage() {
       <section id="cards">
         <Cards />
       </section>
+      {/* <section id="contact">
+        <Contact />
+      </section> */}
     </>
   );
 }

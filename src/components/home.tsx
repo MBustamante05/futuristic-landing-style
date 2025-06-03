@@ -17,7 +17,7 @@ function Home() {
       <div className="w-full max-w-[1300px] mx-auto px-4 py-8 z-10">
         <nav className="fixed left-1/2 top-6 transform -translate-x-1/2 flex justify-between w-full max-w-[784px] py-3 px-7 bg-white/10 rounded-full shadow-lg backdrop-blur-md z-50 items-center">
           <h3 className="text-lg font-bold font-dune cursor-pointer">
-            B<span className="text-orange-300">Dev</span>.{" "}
+            TG<span className="text-orange-300">Dev</span>.{" "}
           </h3>
           <ul className="flex space-x-4 text-[15px] tracking-wide ">
             <li>
